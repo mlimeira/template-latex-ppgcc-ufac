@@ -1,0 +1,173 @@
+% --- -----------------------------------------------------------------
+% --- Elementos usados na Capa e na Folha de Rosto.
+% --- EXPRESSÔES ENTRE <> DEVERÂO SER COMPLETADAS COM A INFORMAÇÂO ESPECÍFICA DO TRABALHO
+% --- E OS SÌMBOLOS <> DEVEM SER RETIRADOS 
+% --- -----------------------------------------------------------------
+\autor{<NOME DO ALUNO>} % deve ser escrito em maiusculo
+
+\titulo{<T\'ITULO DO TRABALHO>}
+
+\instituicao{UNIVERSIDADE FEDERAL FLUMINENSE}
+
+\orientador{<NOME DO ORIENTADOR>}
+
+\coorientador{<NOME DO CO-ORIENTADOR>} % se nao existir co-orientador apague essa linha
+
+\local{NITER\'{O}I}
+
+\data{<ANO>} % ano da defesa
+
+\comentario{<Tese de Doutorado OU Dissertação de Mestrado> apresentada ao Programa de P\'{o}s-Gradua\c{c}\~{a}o em Computa\c{c}\~{a}o da \mbox{Universidade} Federal Fluminense como requisito parcial para a obten\c{c}\~{a}o do Grau de \mbox{<Doutor ou Mestre> em Computa\c{c}\~{a}o}. \'{A}rea de concentra\c{c}\~{a}o: \mbox{<\'AREA DE CONCENTRA\c{C}\~AO.>}} %preencha com a sua area de concentracao
+
+
+% --- -----------------------------------------------------------------
+% --- Capa. (Capa externa, aquela com as letrinhas douradas)(Obrigatorio)
+% --- ----------------------------------------------------------------
+\capa
+
+% --- -----------------------------------------------------------------
+% --- Folha de rosto. (Obrigatorio)
+% --- ----------------------------------------------------------------
+\folhaderosto
+
+
+\pagestyle{ruledheader}
+\setcounter{page}{1}
+\pagenumbering{roman}
+
+% --- -----------------------------------------------------------------
+% --- Termo de aprovacao. (Obrigatorio)
+% --- ----------------------------------------------------------------
+\cleardoublepage
+\thispagestyle{empty}
+
+\vspace{-60mm}
+
+\begin{center}
+   {\large <NOME DO ALUNO>}\\
+   \vspace{7mm}
+
+   <T\'ITULO DO TRABALHO>\\
+  \vspace{10mm}
+\end{center}
+
+\noindent
+\begin{flushright}
+\begin{minipage}[t]{8cm}
+
+<Tese de Doutorado ou Dissertação de Mestrado> apresentada ao Programa de P\'{o}s-Gradua\c{c}\~{a}o em Computa\c{c}\~{a}o da Universidade Federal Fluminense como requisito parcial para a obten\c{c}\~{a}o do \mbox{Grau} de <Doutor ou Mestre> em Computa\c{c}\~{a}o. \'{A}rea de concentra\c{c}\~{a}o: \mbox{<\'AREA DE CONCENTRA\c{C}\~AO.>} %preencha com a sua area de concentracao
+
+\end{minipage}
+\end{flushright}
+\vspace{1.0 cm}
+\noindent
+Aprovada em <MES> de <ANO>. \\
+\begin{flushright}
+  \parbox{11cm}
+  {
+  \begin{center}
+  BANCA EXAMINADORA \\
+  \vspace{6mm}
+  \rule{11cm}{.1mm} \\
+    Prof. <NOME do ORIENTADOR> - Orientador, UFF \\
+    \vspace{6mm}
+  \rule{11cm}{.1mm} \\
+    Prof. <NOME DO AVALIADOR>, <INSTITUI\c{C}\~AO>\\
+    \vspace{6mm}
+  \rule{11cm}{.1mm} \\
+    Prof. <NOME DO AVALIADOR>, <INSTITUI\c{C}\~AO>\\
+  \vspace{4mm}
+  \rule{11cm}{.1mm} \\
+    Prof. <NOME DO AVALIADOR>, <INSTITUI\c{C}\~AO>\\
+    \vspace{6mm}
+  \rule{11cm}{.1mm} \\
+    Prof. <NOME DO AVALIADOR>, <INSTITUI\c{C}\~AO>\\
+  \vspace{6mm}
+  \end{center}
+  }
+\end{flushright}
+\begin{center}
+  \vspace{4mm}
+  Niter\'{o}i \\
+  %\vspace{6mm}
+  <ANO>
+
+\end{center}
+
+% --- -----------------------------------------------------------------
+% --- Dedicatoria.(Opcional)
+% --- -----------------------------------------------------------------
+\cleardoublepage
+\thispagestyle{empty}
+\vspace*{200mm}
+
+\begin{flushright}
+{\em 
+Dedicatória(s): Elemento opcional onde o autor presta homenagem ou dedica seu trabalho (ABNT, 2005).
+}
+\end{flushright}
+\newpage
+
+
+% --- -----------------------------------------------------------------
+% --- Agradecimentos.(Opcional)
+% --- -----------------------------------------------------------------
+\pretextualchapter{Agradecimentos}
+\hspace{5mm}
+Elemento opcional, colocado após a dedicatória (ABNT, 2005). 
+
+% --- -----------------------------------------------------------------
+% --- Resumo em portugues.(Obrigatorio)
+% --- -----------------------------------------------------------------
+\begin{resumo}
+
+Elemento obrigatório, constituído de uma sequência de frases concisas e objetivas e não de uma simples enumeração de tópicos, não ultrapassando 500 palavras (ABNT, 2005).
+
+{\hspace{-8mm} \bf{Palavras-chave}}: Palavras representativas do conteúdo do trabalho, isto é, palavras-chave e/ou descritores, conforme a ABNT NBR 6028 (ABNT, 2005).
+
+\end{resumo}
+
+% --- -----------------------------------------------------------------
+% --- Resumo em lingua estrangeira.(Obrigatorio)
+% --- -----------------------------------------------------------------
+\begin{abstract}
+
+Elemento obrigatório, em língua estrangeira, com as mesmas características do resumo em língua vernácula (ABNT, 2005).
+
+{\hspace{-8mm} \bf{Keywords}}: Palavras representativas do conteúdo do trabalho, isto é, palavras-chave e/ou descritores, na língua (ABNT, 2005).
+
+\end{abstract}
+
+% --- -----------------------------------------------------------------
+% --- Lista de figuras.(Opcional)
+% --- -----------------------------------------------------------------
+%\cleardoublepage
+\listoffigures
+
+
+% --- -----------------------------------------------------------------
+% --- Lista de tabelas.(Opcional)
+% --- -----------------------------------------------------------------
+\cleardoublepage
+%\label{pag:last_page_introduction}
+\listoftables
+\cleardoublepage
+
+% --- -----------------------------------------------------------------
+% --- Lista de abreviatura.(Opcional)
+%Elemento opcional, que consiste na relação alfabética das abreviaturas e siglas utilizadas no texto, seguidas das %palavras ou expressões correspondentes grafadas por extenso. Recomenda-se a elaboração de lista própria para cada %tipo (ABNT, 2005).
+% --- ----------------------------------------------------------------
+\cleardoublepage
+\pretextualchapter{Lista de Abreviaturas e Siglas}
+\begin{tabular}{lcl}
+<ABREVIATURA> & : & <SIGNIFICADO>;\\
+<ABREVIATURA> & : & <SIGNIFICADO>;\\
+<ABREVIATURA> & : & <SIGNIFICADO>;\\
+\end{tabular}
+% --- -----------------------------------------------------------------
+% --- Sumario.(Obrigatorio)
+% --- -----------------------------------------------------------------
+\pagestyle{ruledheader}
+\tableofcontents
+
+
