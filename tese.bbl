@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{tese2011}
+{\sc Aluno, O.}
+\newblock {\em Minha tese de doutorado}.
+\newblock Tese de Doutorado, Instituto de Computa\c{c}\~ao, Universidade
+  Federal Fluminense, Niter\'oi, RJ, Brasil, Julho 2011.
+
+\bibitem{confinter2011}
+{\sc Autor, P.; Autor, S.; Autor, T.}
+\newblock Exemplo de trabalho em confer\^encia internacional.
+\newblock In {\em {FIFA} Annual Conference\/} (Los Angeles, CA, EUA, Dezembro
+  2011), pp.~95--105.
+
+\bibitem{confnac2011}
+{\sc Autor, P.; Autor, S.; Autor, T.}
+\newblock Exemplo de trabalho em confer\^encia nacional.
+\newblock In {\em Congresso Brasileiro de Futebol\/} (Rio de Janeiro, RJ,
+  Brasil, Dezembro 2011), pp.~95--105.
+
+\bibitem{rev2011}
+{\sc Autor, P.; Autor, S.; Autor, T.}
+\newblock Exemplo de trabalho em revista.
+\newblock {\em Revista Brasileira de Futebol 53}, 5 (2011), 584--600.
+
+\bibitem{site2011}
+{\sc IC-UFF}.
+\newblock Monografia de final de curso, 2011.
+\newblock Dispon\'{i}vel em
+  \url{http://www.ic.uff.br/~professor/artigos/monografia1.pdf}.
+
+\bibitem{traina2009fazer}
+{\sc Traina, A. J.~M.; Traina~Jr, C.}
+\newblock Como fazer pesquisa bibliogr{\'a}fica.
+\newblock {\em SBC Horizontes 2}, 2 (2009), 30--35.
+
+\bibitem{wazlawick2009}
+{\sc Wazlawick, R.~S.}
+\newblock {\em Metodologia de Pesquisa em Ciência da Computação}, 1a
+  edição~ed.
+\newblock Elsevier, 2009.
+\newblock ISBN 978-85-35235-22-7.
+
+\bibitem{zobel2014}
+{\sc Zobel, J.}
+\newblock {\em Writing for Computer Science}, 3a edição~ed.
+\newblock Springer, 2014.
+\newblock ISBN 978-14-47166-38-2.
+
+\end{thebibliography}
