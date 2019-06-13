@@ -1,9 +1,0 @@
-\babel@toc {brazil}{}
-\contentsline {chapter}{\numberline {1}T\'itulo do primeiro cap\'itulo}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Introdu\c {c}\~ao}{1}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}Desenvolvimento}{2}{section.1.2}% 
-\contentsline {chapter}{\numberline {2}T\IeC {\'\i }tulo do terceiro cap\IeC {\'\i }tulo}{3}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Desenvolvimento}{3}{section.2.2}% 
-\contentsline {chapter}{Refer\^encias}{4}{section.2.2}% 
-\contentsline {chapter}{Ap\^endice{} A{} -$\tmspace -\thinmuskip {.1667em}$-{} <T\'ITULO DO AP\^ENDICE>}{5}{appendix.A}% 
